@@ -7,7 +7,7 @@ var WAE = require('web-auto-extractor').default
 // UPDATE THIS URL!!!!!
 var cmdArgs = process.argv.slice(2);
 if(cmdArgs.length==0){
-  console.log('Usage: node fetch.js http://www.domain.com/product')
+  console.log('Usage: node fetch.js http://www.illuccixhcp.com/')
   process.exit(1);
 }
 var url = cmdArgs[0];
